@@ -1,0 +1,7 @@
+import sys 
+
+numero = input("digite um numero: ")
+
+n1 = str(numero)
+
+print("o numero digitado foi " + n1)
