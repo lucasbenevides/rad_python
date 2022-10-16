@@ -1,0 +1,13 @@
+# 7 Faça um Programa que calcule a área de um quadrado, em seguida mostre o dobro desta área para o usuário.
+
+import sys
+
+base = eval(sys.argv[1])
+
+altura = eval(sys.argv[2])
+
+area = base * altura
+
+print("o valor  " + str(base) +" vezes " + str(altura) + " dá uma area m² de : " + str(area))
+
+print("fim do programa")
