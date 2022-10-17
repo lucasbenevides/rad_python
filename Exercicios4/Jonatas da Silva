@@ -1,0 +1,13 @@
+import sys 
+
+eta = eval(sys.argv[1])
+gasol = eval(sys.argv[2])
+
+perc = (eta / gasol) * 100
+
+if (perc < 70):
+    print("vale apena usar etanol, valor % " + str(round(perc, 2)))
+else:
+    print("vale apena usar gasolina, pois o valor é % " + str(round(perc, 2)))
+    
+    
