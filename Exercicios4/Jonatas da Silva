@@ -1,0 +1,8 @@
+import sys
+
+anobi = eval(sys.argv[1])
+
+if anobi % 4 == 0 and anobi % 100 !=0 or anobi % 400 == 0:
+    print("o ano de " + str(anobi) + " é BISSEXTO")
+else:
+    print("o ano de " + str(anobi) + " não é BISSEXTO")
